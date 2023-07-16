@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PointPredict</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500;600;700&family=Kanit:wght@400;500;600;700&family=Overpass:wght@400;500;600&family=Signika:wght@400;500;600&family=Yanone+Kaffeesatz:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Intro Section -->
+        <div class="intro_section">
+            <p>Are you confident with you mouse movement?</p>
+            <p>Try predecting it</p>
+            <button id="playBtn">Let's Play</button>
+        </div>
+
+        <!-- Game Section -->
+        <div class="game_section hide">
+            <p class="score" id="score">Clicks: 10 Score: 50</p>
+            <div class="game_area" id="game_area">
+                <div class="outer_circle" id="target_circle"></div>
+                <div class="inner_circle center" id="start_circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
